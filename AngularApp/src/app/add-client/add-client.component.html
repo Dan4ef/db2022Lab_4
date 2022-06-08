@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-md-12 text-center">
+        <h2>Add Client</h2>
+    </div>
+    <div class="row">
+        <form [formGroup]="addClient" novalidate class="form">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">Name</div>
+                <div class="col-md-4">
+                    <input type="text" formControlName="name">
+                </div>
+
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">Surname</div>
+                <div class="col-md-4">
+                    <input type="text" formControlName="surname">
+                </div>
+
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">Email</div>
+                <div class="col-md-4">
+                    <input type="text" formControlName="email">
+                </div>
+
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">Phone</div>
+                <div class="col-md-4">
+                    <input type="text" formControlName="phone">
+                </div>
+
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <button type="submit" (click)="onSubmit()" class="btn btn-success">Add Client</button>
+                </div>
+
+
+                <div class="col-md-2"></div>
+            </div>
+        </form>
+    </div>
+</div>
