@@ -1,5 +1,8 @@
+1) У терміналі відкрити папку проекту (у моєму вмпадку cd C:\Users\danila\Documents\lab_4>) та встановити Ангуляр командою:
+  ng new AngularApp (вибрати yes, та CSS у строчках які з'являться при виконанні команди)
+2) 
 1) Встановити NodeJS останньої версії.
-2) У терміналі відкрити папку NodeJS (моєму вмпадку cd C:\Users\danila\Documents\lab_4\NodeJS>)
+2) У терміналі відкрити папку NodeJS (у моєму вмпадку cd C:\Users\danila\Documents\lab_4\NodeJS>)
 3) Прописати команду: npm i cors --save
 4) Прописати команду яка заупстить NodeJS: nodemon index.js
 5) У терміналі відкрити папку з Ангуляром
